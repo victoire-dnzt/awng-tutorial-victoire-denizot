@@ -12,11 +12,14 @@ Note: this project contains a `.gitignore` file, so that you will only share *so
 1. Fork this project:
    1. Click the "Fork" button in the-top right corner of this page
    2. Select your GitHub account; you will be landing in *your* project's GitHub page (`john-doe/awng-tutorial` instead of `EISC-209-AWNG/awng-tutorial`)
-2. Add your teachers as members of **your** project:
+2. Add your teachers as members of ***your*** project:
    1. Go to Settings / Collaborators on your project's GitHub page
    2. Use Add Collaborator for each teacher (type its GitHub identifier)
-3. Rename the forked project so that it clearly identifies you: 
-   1. Go to Settings on your project's GitHub page
+3. Allow teachers to create issues in your project
+   1. Go to Settings / General on your project's GitHub page
+   2. Scroll down until you find the Features section, and enable the Issues feature
+4. Rename your project so that it clearly identifies you: 
+   1. Go to Settings/ General on your project's GitHub page
    2. Type the new Repository Name: `awng-tutorial-firstname-lastname`, with *your* name, e.g. `awng-tutorial-john-doe` 
    3. Click the "Rename" button
 
@@ -57,7 +60,7 @@ $ venv\Scripts\activate
 (venv) $ pip install Django
 ```
 
-Warning: `activate` might not work on Windows, complaining about some "execution policy" matter. In that case, open a powershell console, run `Set-ExecutionPolicy -scope CurrentUser`, answer `bypass` and `A` (yes to all).
+Warning: `activate` might not work on Windows, complaining about some "execution policy" matter. In that case, open a powershell console, run `Set-ExecutionPolicy -scope CurrentUser` and answer `bypass`.
 
 ## Use the virtual environment afterwards
 
