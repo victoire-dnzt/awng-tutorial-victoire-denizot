@@ -90,9 +90,10 @@ $ source venv/Scripts/activate
 (venv) $ 
 ```
 
-## Do the Django official tutorial
+## Do the Django official tutorial in VS Code
 
-Open [Django's Getting Started
+Open the `/path/to/project` folder in VS Code (menu File > Open Folder...). Then
+open [Django's Getting Started
 documentation](https://docs.djangoproject.com/en/4.1/intro/) and do the seven
 parts of the **Writing your first Django app** tutorial.
 
