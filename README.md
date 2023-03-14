@@ -90,3 +90,14 @@ $ source venv/Scripts/activate
 (venv) $ 
 ```
 
+## Do the Django official tutorial
+
+Open [Django's Getting Started
+documentation](https://docs.djangoproject.com/en/4.1/intro/) and do the seven
+parts of the **Writing your first Django app** tutorial.
+
+## Read extra resources
+
+- [Working with form](https://docs.djangoproject.com/fr/4.1/topics/forms/)
+- [How to manage static files (e.g. images, JavaScript, CSS)](https://docs.djangoproject.com/en/4.1/howto/static-files/)
+- [The Django template language](https://docs.djangoproject.com/en/4.1/ref/templates/language/#template-inheritance-1)
