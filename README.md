@@ -18,20 +18,22 @@ Note: this project contains a `.gitignore` file, so that you will only share *so
 3. Allow teachers to create issues in your project
    1. Go to Settings / General on your project's GitHub page
    2. Scroll down until you find the Features section, and enable the Issues feature
-4. Rename your project so that it clearly identifies you: 
+4. Rename your project so that it clearly identifies you:
    1. Go to Settings/ General on your project's GitHub page
-   2. Type the new Repository Name: `awng-tutorial-firstname-lastname`, with *your* name, e.g. `awng-tutorial-john-doe` 
+   2. Type the new Repository Name: `awng-tutorial-firstname-lastname`, with *your* name, e.g. `awng-tutorial-john-doe`
    3. Click the "Rename" button
 
 At this point, you have your own project on GitHub with an appropriate initial content. Next, you need to get a **working copy** on your computer:
 
-1. Follow the instructions of the [*Cloning your forked repository*](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) section of https://docs.github.com/en/get-started/quickstart/fork-a-repo
+1. Follow the instructions of the [*Cloning your forked repository*](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) section of <https://docs.github.com/en/get-started/quickstart/fork-a-repo>
 2. Launch VS Code and open the local directory, named `awng-tutorial-firstname-lastname`
 3. In your local project directory, create a virtual environment and install Django (see next section)
 
 ## Install Django in a virtual environment
 
-The following commands create a `venv` virtual environment in your local copy of the project. Open a terminal in your local directory (it can be VS Code integrated terminal), then:
+The following commands create a `venv` virtual environment in your local copy of the project, and let you install `Django` inside this virtual environment; you will also install the `djlint` tool that VS Code uses to detect some syntax errors. Those installs are made with the `pip` command which is part of the Python distribution.
+
+Open a terminal in your local directory (it can be VS Code integrated terminal), and type the following commands (after the `$` prompt sign); notice the `(venv)` prompt prefix, which indicates when you are in the virtual environment:
 
 ### On Linux or macOS
 
@@ -40,6 +42,7 @@ $ cd /path/to/project
 $ python -m venv venv
 $ source venv/bin/activate
 (venv) $ pip install Django
+(venv) $ pip install djlint
 ```
 
 ### On Windows via Git Bash
@@ -49,6 +52,7 @@ $ cd /path/to/project
 $ py -m venv venv
 $ source venv/Scripts/activate
 (venv) $ pip install Django
+(venv) $ pip install djlint
 ```
 
 ### On Windows via powershell
@@ -58,6 +62,7 @@ $ cd \path\to\project
 $ py -m venv venv
 $ venv\Scripts\activate
 (venv) $ pip install Django
+(venv) $ pip install djlint
 ```
 
 Warning: `activate` might not work on Windows, complaining about some "execution policy" matter. In that case, open a powershell console, run `Set-ExecutionPolicy -scope CurrentUser` and answer `bypass`.
