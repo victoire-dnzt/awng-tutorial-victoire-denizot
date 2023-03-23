@@ -102,8 +102,29 @@ open [Django's Getting Started
 documentation](https://docs.djangoproject.com/en/4.1/intro/) and do the seven
 parts of the **Writing your first Django app** tutorial.
 
+### Regularly save your work with Git
+
+- First, to your local copy, with regular and frequent calls to `git add ...`
+  and `git commit -m "..."`
+- Also, to your GitHub repository, with regular calls to `git push`
+- If in doubt, use `git status` and `git log`
+
+:warning: Focus on commits quality:
+
+- Every commit should be **atomic**: consistent set of modifications, tested and
+  validated.
+- Every commit must also be **documented**: provide a comment which is useful to
+  you as well as other readers: what did you do between the commit and the
+  previous one? Here are a few examples: "Add Choice model", "Add index view
+  plus associated URL", "Django tutorial part 3". These messages must inform you,
+  even after 3 months.
+
+:bulb: When you are comfortable with `git add` and `git commit`, systematically
+use a new **branch** for each new tutorial chapter (see Git slides on LMS). You
+will then use `git branch`, `git switch` and `git merge`.
+
 ## Read extra resources
 
-- [Working with form](https://docs.djangoproject.com/fr/4.1/topics/forms/)
+- [Working with forms](https://docs.djangoproject.com/en/4.1/topics/forms/)
 - [How to manage static files (e.g. images, JavaScript, CSS)](https://docs.djangoproject.com/en/4.1/howto/static-files/)
 - [The Django template language](https://docs.djangoproject.com/en/4.1/ref/templates/language/#template-inheritance-1)
