@@ -14,7 +14,10 @@ Note: this project contains a `.gitignore` file, so that you will only share *so
    2. Select your GitHub account; you will be landing in *your* project's GitHub page (`john-doe/awng-tutorial` instead of `EISC-209-AWNG/awng-tutorial`)
 2. Add your teachers as members of ***your*** project:
    1. Go to Settings / Collaborators on your project's GitHub page
-   2. Use Add Collaborator for each teacher (type its GitHub identifier)
+   2. Use Add Collaborator for each teacher (type its GitHub identifier) :
+      - `brunoilponseisae`
+      - `tanguy-perennou`
+      - `trsalomon`
 3. Allow teachers to create issues in your project
    1. Go to Settings / General on your project's GitHub page
    2. Scroll down until you find the Features section, and enable the Issues feature
@@ -97,10 +100,14 @@ $ source venv/Scripts/activate
 
 ## Do the Django official tutorial in VS Code
 
-Open the `/path/to/project` folder in VS Code (menu File > Open Folder...). Then
-open [Django's Getting Started
-documentation](https://docs.djangoproject.com/en/4.1/intro/) and do the seven
-parts of the **Writing your first Django app** tutorial.
+Open the `/path/to/project` folder in VS Code (menu File > Open Folder...). Your
+VS Code should already be configured with Python, Django and SQLite3 extensions
+according to previous instructions.
+
+Then open [*Django's Getting Started
+documentation*](https://docs.djangoproject.com/en/4.1/intro/) and do the seven
+parts of the **Writing your first Django app** tutorial, which consists in
+coding a `mysite/polls` Django web server.
 
 ### Regularly save your work with Git
 
@@ -125,6 +132,6 @@ will then use `git branch`, `git switch` and `git merge`.
 
 ## Read extra resources
 
-- [Working with forms](https://docs.djangoproject.com/en/4.1/topics/forms/)
-- [How to manage static files (e.g. images, JavaScript, CSS)](https://docs.djangoproject.com/en/4.1/howto/static-files/)
-- [The Django template language](https://docs.djangoproject.com/en/4.1/ref/templates/language/#template-inheritance-1)
+- [*Working with forms*](https://docs.djangoproject.com/en/4.1/topics/forms/)
+- [*How to manage static files (e.g. images, JavaScript, CSS)*](https://docs.djangoproject.com/en/4.1/howto/static-files/)
+- [*The Django template language*](https://docs.djangoproject.com/en/4.1/ref/templates/language/#template-inheritance-1)
